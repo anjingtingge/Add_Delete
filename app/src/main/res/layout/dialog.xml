@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_linlayout"
+    android:layout_width="906px"
+    android:layout_height="525px"
+    android:background="@color/normal"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_password_confirm"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="请再次输入密码"-->
+        <!--android:inputType="textPassword" >-->
+    <!--</EditText>-->
+
+
+    <RelativeLayout
+        android:id="@+id/dialog_relayout"
+        android:layout_width="match_parent"
+        android:layout_height="378px"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/dialog_img"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginLeft="51px"
+            android:layout_marginTop="128px"
+            android:scaleType="fitXY"
+            android:src="@drawable/tomato" />
+
+        <com.hmct.add_delete.EasyPickerView
+            android:id="@+id/epv_h"
+            android:layout_width="140px"
+            android:layout_height="340px"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="245px"
+            android:layout_marginTop="20px"
+            custom:epvMaxShowNum="3"
+            custom:epvRecycleMode="true"
+            custom:epvTextColor="#e98d3c"
+            custom:epvTextMaxScale="2.0"
+            custom:epvTextMinAlpha="0.35"
+            custom:epvTextPadding="10dp"
+            custom:epvTextSize="30sp"
+            />
+
+        <com.hmct.add_delete.EasyPickerView
+            android:id="@+id/epv_m"
+            android:layout_width="140px"
+            android:layout_height="340px"
+            android:layout_marginLeft="408px"
+            android:layout_marginTop="20px"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            custom:epvMaxShowNum="3"
+            custom:epvRecycleMode="true"
+            custom:epvTextColor="#4aa4a4"
+            custom:epvTextMaxScale="2.0"
+            custom:epvTextMinAlpha="0.35"
+            custom:epvTextPadding="10dp"
+            custom:epvTextSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="593px"
+            android:layout_marginTop="171px"
+            android:text="天后提醒"
+            android:textColor="#e98d3c"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+
+
+        <ImageView
+            android:id="@+id/dialog_cancel"
+            android:layout_width="110px"
+            android:layout_height="110px"
+            android:layout_marginLeft="244px"
+            android:layout_marginTop="398px"
+            android:scaleType="fitXY"
+            android:src="@drawable/fault" />
+
+        <ImageView
+            android:id="@+id/dialog_ok"
+            android:layout_width="110px"
+            android:layout_height="110px"
+            android:layout_marginLeft="566px"
+            android:layout_marginTop="398px"
+            android:scaleType="fitXY"
+            android:src="@drawable/correct" />
+
+</RelativeLayout>

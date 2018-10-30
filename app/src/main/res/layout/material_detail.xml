@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/detal_linearlayout"
+    android:orientation="vertical"
+    android:layout_width="1080px"
+    android:layout_height="1920px"
+    android:background="@color/grey">
+
+    <RelativeLayout
+        android:layout_width="975px"
+        android:layout_height="1280px"
+        android:layout_gravity="center"
+        android:layout_marginTop="270px"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_marginLeft="900px"
+            android:src="@drawable/close" />
+
+        <ImageView
+            android:id="@+id/detal_img"
+            android:layout_width="123px"
+            android:layout_height="123px"
+            android:layout_marginLeft="57px"
+            android:layout_marginTop="133px"
+            android:src="@drawable/apple" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="187px"
+            android:layout_marginTop="133px">
+                <TextView
+                    android:id="@+id/detal_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="苹果"
+                    android:textSize="64px" />
+
+                <TextView
+                    android:id="@+id/detal_editname"
+                    android:layout_width="64px"
+                    android:layout_height="64px"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="15px"
+                    android:background="@drawable/edit"
+                    android:textSize="64px" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="187px"
+            android:layout_marginTop="210px"
+            android:text="已存储2天"
+            android:textSize="33px" />
+
+        <TextView
+            android:id="@+id/detal_shi"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="692px"
+            android:layout_marginTop="133px"
+            android:background="@drawable/riqi"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="33px" />
+
+        <TextView
+            android:id="@+id/detal_ge"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginLeft="742px"
+            android:layout_marginTop="133px"
+            android:background="@drawable/riqi"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="33px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="792px"
+            android:layout_marginTop="133px"
+            android:text="天后提醒"
+            android:textSize="33px" />
+
+        <TextView
+            android:id="@+id/detal_freshday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="682px"
+            android:layout_marginTop="190px"
+            android:background="@drawable/bg_tag_normal"
+            android:text="重新设置"
+            android:textSize="43px" />
+
+        <View
+            android:layout_width="921px"
+            android:layout_height="4px"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="317px"
+            android:background="@color/grey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="367px"
+            android:text="营养成分"
+            android:textSize="53px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="430px"
+            android:text="含碳水化合物、蛋白质、膳食纤维、维生素A、维生素B、有机酸"
+            android:textSize="43px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="596px"
+            android:text="养生功效"
+            android:textSize="53px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="675px"
+            android:text="1.含碳水化合物、蛋白质、膳食纤维、维生素A、维生素B、有机酸"
+            android:textSize="43px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="789px"
+            android:text="2.含碳水化合物、蛋白质、膳食纤维、维生素A、维生素B、有机酸"
+            android:textSize="43px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="906px"
+            android:text="3.含碳水化合物、蛋白质、膳食纤维、维生素A、维生素B、有机酸"
+            android:textSize="43px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="1014px"
+            android:text="4.含碳水化合物、蛋白质、膳食纤维、维生素A、维生素B、有机酸"
+            android:textSize="43px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="1126px"
+            android:text="5.含碳水化合物、蛋白质、膳食纤维、维生素A、维生素B、有机酸"
+            android:textSize="43px" />
+    </RelativeLayout>
+</LinearLayout>
